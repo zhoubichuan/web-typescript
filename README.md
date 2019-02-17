@@ -1,0 +1,25 @@
+# 一、typescript 安装 编译
+
+```
+npm install -g typescript
+```
+
+```
+tsc helloworld.ts
+```
+
+# 二、typescript 开发工具 vscode 自动编译.ts 文件
+
+## 1.创建 tsconfig.json 文件 tsc --init 生成配置文件
+
+## 2.点击菜单 任务-运行任务 点击 tsc:监视-tsconfig.json 然后就可以自动生成代码了
+
+# 三、typescript 开发工具 hbuilder 自动编译.ts 文件
+
+## 1.在最上方菜单栏，点击工具-插件安装；
+
+## 2.点击下方浏览 Eclipse 插件市场，搜索 typescript 插件进行安装
+
+## 3.安装完成后重启编译器，点击菜单栏工具-选项选择编译 ts 文件
+
+## 4.在你的项目上右键点击--配置--Enable TypeScript Builder，之后你再保存.ts 文件时会自动在当前目录编译出对应的.js 文件，在 Compile all TypeScript files on build 进行打勾，然后确定；
