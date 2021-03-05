@@ -1,11 +1,11 @@
 module.exports = {
   // 基础配置
-  base: '/Web-Docker/', // 部署站点的基础路径
-  description: 'Docker相关知识点',
+  base: '/Web-Typescript/', // 部署站点的基础路径
+  description: 'Typescript相关知识点',
   locales: {
     // 默认标题
     '/': {
-      title: 'Docker笔记',
+      title: 'Typescript笔记',
       description: ''
     }
   },
@@ -60,11 +60,11 @@ module.exports = {
         nav: [{
             text: '基础知识',
             items: [{
-                text: '1.Docker实践指南',
+                text: '1.Typescript实践指南',
                 link: '/base/build/1.config'
               },
               {
-                text: '2.docker相关实践',
+                text: '2.Typescript相关实践',
                 link: '/base/practice/1.docker',
               }
             ]
