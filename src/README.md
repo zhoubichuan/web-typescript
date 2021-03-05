@@ -5,10 +5,10 @@ heroImage: ""
 actionText: 先睹为快 →
 actionLink: /base/build/1.config
 pageClass: page_index
-footer: Docker相关知识
+footer: TypeScript相关相关知识
 meta:
   - name: keywords
-    content: Vue相关,前端学习,前端笔记
+    content: TypeScript相关,前端学习,前端笔记
 ---
 
 <template>

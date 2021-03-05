@@ -80,41 +80,13 @@ module.exports = {
                 link: '/senior/typeScript'
               },
             ]
-          },
-          {
-            text: '源码知识',
-            items: [{
-                text: '1.vue源码解析',
-                link: '/source/vue/1.preparation'
-              },
-              {
-                text: '2.vuex源码解析',
-                link: '/source/vuex'
-              },
-              {
-                text: '3.vue-router源码解析',
-                link: '/source/vue-router'
-              },
-              {
-                text: '4.element源码解析',
-                link: '/source/element/Pagination'
-              },
-            ]
           }
         ],
         sidebar: {
           '/base/build/': ['1.config', '2.webpack', '3.file', '4.single', '5.page', '7.module', '8.project', '9.utils', '10.ui', '11.data', '12.skill', '13.com', '14.data', '15.api'],
           '/base/practice/': ['1.docker', '2.Jenkins', '3.gitlab', 'vscode', 'test', 'prem', 'i18n'],
           '/senior/use/': ['1.recursionAndDynamics', '2.extend', '3.componentCommunication', '4.render', '5.api', '6.form', '7.checkBox', '8.active', '9.alert', '10.table', '11.tree'],
-          '/senior/npm/': [],
-          '/source/vue/': ['1.preparation', '2.dataDriven', '3.componentization', '4.deepResponsePrinciple', '5.compile', '6.extend', '7.vueRouter', '8.vuex'],
-          '/source/element/': ['Pagination', 'Dialog', 'Autocomplete', 'Dropdown',
-            'DropdownMenu', 'DropdownItem', 'Menu', 'Submenu', 'MenuItem', 'MenuItemGroup', 'Input', 'InputNumber', 'Radio', 'RadioGroup', 'RadioButton', 'Checkbox', 'CheckboxButton', 'CheckboxGroup',
-            'Switch', 'Option', 'OptionGroup', 'Button', 'ButtonGroup', 'Table', 'TableColumn', 'DatePicker', 'TimeSelect', 'TimePicker', 'Popover', 'Tooltip', 'Breadcrumb', 'BreadcrumbItem',
-            'Form', 'FormItem', 'Tabs', 'TabPane', 'Tag', 'Tree', 'Alert', 'Slider', 'Icon', 'Row', 'Col', 'Upload', 'Progress',
-            'Spinner', 'Badge', 'Card', 'Rate', 'Steps', 'Step', 'Carousel', 'Scrollbar', 'CarouselItem', 'Collapse', 'CollapseItem', 'Cascader', 'ColorPicker', 'Transfer',
-            'Container', 'Header', 'Aside', 'Main', 'Footer', 'Timeline', 'TimelineItem', 'Link', 'Divider', 'Image', 'Calendar', 'Backtop', 'PageHeader', 'CascaderPanel', 'Avatar', 'Drawer', 'Popconfirm', 'CollapseTransition', 'MessageBox'
-          ],
+          '/senior/npm/': []
         }
       }
     }
