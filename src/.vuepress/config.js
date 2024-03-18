@@ -98,7 +98,6 @@ module.exports = {
             '12.skill',
             '13.com',
             '14.data',
-            '15.api'
           ],
           '/base/practice/': [
             '1.docker', 
