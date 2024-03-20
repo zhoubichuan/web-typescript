@@ -24,7 +24,6 @@ module.exports = {
   scss: {
 
   },
-  sass: { indentedSyntax: true },
   dest: "web-typescript", // 指定 vuepress 的输出目录
   markdown: {
     toc: { includeLevel: [2, 3] },
