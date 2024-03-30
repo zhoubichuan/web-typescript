@@ -1,26 +1,32 @@
-const nav = [{
-  text: '基础知识',
-  items: [{
-      text: '1.Typescript基本练习',
+const nav = [
+  {
+    text: '基础知识',
+    items: [{
+      text: '一.基本练习',
       link: '/base/build/1.init'
     },
     {
-      text: '2.Typescript相关实践',
+      text: '二.相关实践',
       link: '/base/practice/1.docker',
     }
-  ]
-},
-{
-  text: '高级知识',
-  items: [{
-      text: '1.组件精讲',
-      link: '/senior/use/1.recursionAndDynamics'
-    },
-    {
-      text: '2.TypeScript',
-      link: '/senior/typeScript'
-    },
-  ]
-}
+    ]
+  },
+  {
+    text: '高级知识',
+    items: [
+      {
+        text: '一.TypeScript',
+        link: '/senior/2.typescript/1.index'
+      },
+      {
+        text: '二.Vue项目',
+        link: '/senior/use/1.recursionAndDynamics'
+      },
+      {
+        text: '三.React项目',
+        link: '/senior/typeScript'
+      },
+    ]
+  }
 ];
 module.exports = nav;
