@@ -48,7 +48,7 @@ const sidebar = {
   ],
 
   '/senior/use/': [
-    '1.recursionAndDynamics',
+    '1.index',
     '2.extend',
     '3.componentCommunication',
     '4.render',
@@ -61,7 +61,7 @@ const sidebar = {
     '11.tree'
   ],
   '/senior/npm/': [
-
+    '1.index',
   ]
 };
 module.exports = sidebar;

@@ -21,11 +21,11 @@ const nav = [
     items: [
       {
         text: '二.Vue项目',
-        link: '/senior/use/1.recursionAndDynamics'
+        link: '/senior/use/1.index'
       },
       {
         text: '三.React项目',
-        link: '/senior/typeScript'
+        link: '/senior/npm/1.index'
       },
     ]
   }
