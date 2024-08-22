@@ -1,2 +1,2 @@
 "use strict";
-let status = true;
+let isClose = true;

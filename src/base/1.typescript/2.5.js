@@ -1,3 +1,3 @@
 "use strict";
-let name;
-name = boolean;
+let currentData;
+currentData = true;

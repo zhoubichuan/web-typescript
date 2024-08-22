@@ -1,2 +1,2 @@
-let name: null | boolean
-name = null
+let currentValue: null | boolean
+currentValue = null

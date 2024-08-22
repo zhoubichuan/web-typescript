@@ -1,4 +1,6 @@
 "use strict";
-let a;
-a = undefined;
-a = null;
+let consoleVal = (val) => {
+    console.log(val);
+};
+consoleVal(undefined);
+consoleVal();

@@ -1,1 +1,1 @@
-let status: boolean = true
+let isClose: boolean = true

@@ -1,3 +1,5 @@
-let a: void
-a = undefined
-a = null
+let consoleVal = (val: void): void => {
+    console.log(val)
+}
+consoleVal(undefined)
+consoleVal()

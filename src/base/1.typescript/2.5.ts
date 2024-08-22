@@ -1,2 +1,2 @@
-let name: null | boolean
-name = boolean
+let currentData: null | boolean
+currentData = true

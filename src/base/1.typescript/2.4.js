@@ -1,3 +1,3 @@
 "use strict";
-let name;
-name = null;
+let currentValue;
+currentValue = null;
