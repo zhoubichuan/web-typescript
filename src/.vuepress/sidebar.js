@@ -1,5 +1,5 @@
 const sidebar = {
-  '/base/1.typescript/': [
+  '/base/1.api/': [
     '1.index',
     '1.env',
     '2.base',
@@ -21,7 +21,7 @@ const sidebar = {
     '18.statement',
     '19.extend'
   ],
-  '/base/2.vue/': [
+  '/base/2.config/': [
     '1.index',
     '1.config',
     '2.webpack',
