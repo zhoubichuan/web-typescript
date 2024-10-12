@@ -3,7 +3,7 @@ lang: zh-CN
 home: true
 heroImage: ./home.png
 actionText: 先睹为快 →
-actionLink: /base/1.typescript/1.index
+actionLink: /base/1.api/1.index
 pageClass: page_index
 footer: TypeScript相关相关知识
 meta:
