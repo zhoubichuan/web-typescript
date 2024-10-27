@@ -9,3 +9,7 @@ meta:
 ---
 
 # vite + react
+
+::: tip 前言
+
+:::
