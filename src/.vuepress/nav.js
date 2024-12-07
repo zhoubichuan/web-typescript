@@ -21,7 +21,7 @@ const nav = [
     items: [
       {
         text: '一.Vue项目',
-        link: '/senior/use/1.index'
+        link: '/senior/vue/1.index'
       },
       {
         text: '二.React项目',

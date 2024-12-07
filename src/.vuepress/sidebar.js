@@ -47,18 +47,18 @@ const sidebar = {
     'i18n'
   ],
 
-  '/senior/use/': [
+  '/senior/vue/': [
     '1.index',
-    '2.extend',
-    '3.componentCommunication',
-    '4.render',
-    '5.api',
-    '6.form',
-    '7.checkBox',
-    '8.active',
-    '9.alert',
-    '10.table',
-    '11.tree'
+    '2.ref',
+    '3.props',
+    '4.emits',
+    '5.component',
+    '6.slot',
+    '7.vue-router',
+    '8.tsconfig',
+    '9.vuex',
+    '10.element-plus',
+    '11.tsx'
   ],
   '/senior/npm/': [
     '1.index',
