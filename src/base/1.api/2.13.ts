@@ -1,25 +1,18 @@
-// 1.定义
-enum USER_ROLE {
-  USER, // 默认从0开始
-  ADMIN,
-  MANAGER,
-}
-// 2.使用
-console.log(USER_ROLE[0])
-console.log(USER_ROLE.USER)
+// 确定类型1
+let arr1: number[] = [1, 2, 3]
+let arr2: string[] = ["1", "2", "3"]
+let arr3: (number | string)[] = [1, "2", 3]
 
-//异构枚举
-enum USER_ROLE2 {
-  USER = "user",
-  ADMIN = 1,
-  MANAGER,
-}
-console.log(USER_ROLE2.USER)
+// 确定类型2
+let arr: Array<number> = [1, 2, 3]
+let arr4: Array<number | string> = [1, "2", 3]
 
-// 常量枚举
-const enum USER_ROLE3 {
-  USER,
-  ADMIN,
-  MANAGER,
+// 泛型
+type ArrType<T> = Array<T>
+let arr5: ArrType<number> = [1, 2, 3]
+let arr6: Array<number | string> = [1, "2", 3]
+interface treeNode {
+    id: string;
+    children: treeNode[]
 }
-console.log(USER_ROLE3.USER)
+const treeData: treeNode[] = []
