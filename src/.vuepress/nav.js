@@ -17,15 +17,15 @@ const nav = [
     ]
   },
   {
-    text: '高级知识',
+    text: '项目配置',
     items: [
       {
-        text: '一.Vue项目',
-        link: '/senior/vue/1.index'
+        text: '一.vue',
+        link: '/project/vue/1.index'
       },
       {
-        text: '二.React项目',
-        link: '/senior/npm/1.index'
+        text: '二.react',
+        link: '/project/react/1.index'
       },
     ]
   }

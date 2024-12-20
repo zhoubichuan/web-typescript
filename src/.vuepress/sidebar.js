@@ -47,7 +47,7 @@ const sidebar = {
     'i18n'
   ],
 
-  '/senior/vue/': [
+  '/project/vue/': [
     '1.index',
     '2.ref',
     '3.props',
@@ -60,7 +60,7 @@ const sidebar = {
     '10.element-plus',
     '11.tsx'
   ],
-  '/senior/npm/': [
+  '/project/react/': [
     '1.index',
   ]
 };
