@@ -8,4 +8,5 @@ let arr = [1, 2, 3];
 let arr4 = [1, "2", 3];
 let arr5 = [1, 2, 3];
 let arr6 = [1, "2", 3];
-const treeData = [];
+const node = [{ id: '112121', children: [] }];
+const node2 = [{ id: '112121', children: [{ id: '112121', children: [] }] }];

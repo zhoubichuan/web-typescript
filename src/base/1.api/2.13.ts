@@ -11,8 +11,11 @@ let arr4: Array<number | string> = [1, "2", 3]
 type ArrType<T> = Array<T>
 let arr5: ArrType<number> = [1, 2, 3]
 let arr6: Array<number | string> = [1, "2", 3]
+
+// 接口
 interface treeNode {
     id: string;
     children: treeNode[]
 }
-const treeData: treeNode[] = []
+const node: treeNode[] = [{ id: '112121', children: [] }]
+const node2: treeNode[] = [{ id: '112121', children: [{ id: '112121', children: [] }] }]

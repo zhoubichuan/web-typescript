@@ -15,6 +15,7 @@
     "deploy": "bash deploy.sh",
     "github": "bash github.sh",
     "gitee": "bash gitee.sh",
+    "scp:prod": "scp -r ./web-typescript/* root@zhoubichuan.com:/usr/src/zhoubichuan/prod/web-typescript/",
     "dll": "webpack -p --progress --config ./src/.vuepress/webpack.dll.conf.js",
     "build:js": "node rollup.js",
     "build:css": "npx gulp sass",
