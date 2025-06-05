@@ -41,8 +41,8 @@ const sidebar = {
     '1.index',
     '2.Jenkins',
     '3.gitlab',
-    'vscode',
-    'test',
+    '4.vscode',
+    '5.zod',
     'prem',
     'i18n'
   ],
