@@ -4,8 +4,16 @@ enum USER_ROLE {
   ADMIN,
   MANAGER,
 }
-console.log(USER_ROLE[0])
-console.log(USER_ROLE.USER)
+console.log(USER_ROLE[0]) // USER
+console.log(USER_ROLE.USER) // 0
+
+enum USER_ROLE1 {
+  USER = 5, // 默认从0开始
+  ADMIN = 10,
+  MANAGER = 20,
+}
+console.log(USER_ROLE1[5]) //  USER
+console.log(USER_ROLE1.USER) // 5
 
 //异构枚举:异构枚举的成员值是数字和字符串的混合
 enum USER_ROLE2 {

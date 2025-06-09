@@ -6,8 +6,16 @@ var USER_ROLE;
     USER_ROLE[USER_ROLE["ADMIN"] = 1] = "ADMIN";
     USER_ROLE[USER_ROLE["MANAGER"] = 2] = "MANAGER";
 })(USER_ROLE || (USER_ROLE = {}));
-console.log(USER_ROLE[0]);
-console.log(USER_ROLE.USER);
+console.log(USER_ROLE[0]); // USER
+console.log(USER_ROLE.USER); // 0
+var USER_ROLE1;
+(function (USER_ROLE1) {
+    USER_ROLE1[USER_ROLE1["USER"] = 5] = "USER";
+    USER_ROLE1[USER_ROLE1["ADMIN"] = 10] = "ADMIN";
+    USER_ROLE1[USER_ROLE1["MANAGER"] = 20] = "MANAGER";
+})(USER_ROLE1 || (USER_ROLE1 = {}));
+console.log(USER_ROLE1[5]); //  USER
+console.log(USER_ROLE1.USER); // 5
 //异构枚举:异构枚举的成员值是数字和字符串的混合
 var USER_ROLE2;
 (function (USER_ROLE2) {
